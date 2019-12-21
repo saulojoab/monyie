@@ -5,6 +5,29 @@ INJECTED from /home/saulo/Projetos/Flutter/monyie/android/app/src/main/AndroidMa
 INJECTED from /home/saulo/Projetos/Flutter/monyie/android/app/src/main/AndroidManifest.xml:1:1-33:12
 INJECTED from /home/saulo/Projetos/Flutter/monyie/android/app/src/main/AndroidManifest.xml:1:1-33:12
 MERGED from /home/saulo/Projetos/Flutter/monyie/android/app/src/main/AndroidManifest.xml:1:1-33:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/saulo/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/da17634865fbd11a2c5d336c70125318/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/saulo/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/b25adad84ca787a82c535877e967a2fc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/saulo/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/955add67d7d4e29b699baccbe33ae065/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/saulo/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/738913bcfee7c4d4c255f8ad6b13d137/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/saulo/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/4ae3b2d115e0e6f8f33128ee549f2603/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/saulo/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/2a47fd4dd2c693e8adf4e9d4c8a7e5ce/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/saulo/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/8809df6e32278c0fee08babbc84c5634/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/saulo/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/e473bfb42aeb5b89a594535926aa63b0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/saulo/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/401507d4b81b7eaf7545daa4fd0dc8f3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/saulo/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/0ac586a0f84352fa975369dedb24f76c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/saulo/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/c9215130e5191bababfb03eb047898ff/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/saulo/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/fb1ad66442af945122b21e580e588b6a/AndroidManifest.xml:17:1-24:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/saulo/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/fcf5f5e9613b148e7ffe49cf018d0b74/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/saulo/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/7c228ab4687261db5196426846803dec/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/saulo/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/2e3c51f828534b8c09c3298789d2884a/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/saulo/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/554fd8f8ed585f99da91524e16daa576/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/saulo/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/e39dc1e1bd0624b2468d7c9f235417a3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/saulo/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/eb2ae054ba29151c6dd6788bdb482281/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/saulo/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/9ad07f5b3f24574bb175ae124436ff3e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/saulo/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/9caf50c0aa6a44cf59aeb47508898b08/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/saulo/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/e815ca22d642b878d6932036c41dd53f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/saulo/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/9131f8f508e6e3c92dcb78b3c5eea39c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/saulo/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/9e5f783cd523317a3dd722040c57847e/AndroidManifest.xml:17:1-22:12
 INJECTED from /home/saulo/Projetos/Flutter/monyie/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 INJECTED from /home/saulo/Projetos/Flutter/monyie/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 INJECTED from /home/saulo/Projetos/Flutter/monyie/android/app/src/debug/AndroidManifest.xml:1:1-7:12
@@ -24,6 +47,12 @@ INJECTED from /home/saulo/Projetos/Flutter/monyie/android/app/src/debug/AndroidM
 		ADDED from /home/saulo/Projetos/Flutter/monyie/android/app/src/main/AndroidManifest.xml:1:11-69
 application
 ADDED from /home/saulo/Projetos/Flutter/monyie/android/app/src/main/AndroidManifest.xml:9:5-32:19
+MERGED from [com.android.support:support-compat:28.0.0] /home/saulo/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/fb1ad66442af945122b21e580e588b6a/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/saulo/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/fb1ad66442af945122b21e580e588b6a/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/saulo/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/eb2ae054ba29151c6dd6788bdb482281/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/saulo/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/eb2ae054ba29151c6dd6788bdb482281/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /home/saulo/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/fb1ad66442af945122b21e580e588b6a/AndroidManifest.xml:22:18-91
 	android:label
 		ADDED from /home/saulo/Projetos/Flutter/monyie/android/app/src/main/AndroidManifest.xml:11:9-31
 	android:icon
@@ -64,6 +93,52 @@ uses-sdk
 INJECTED from /home/saulo/Projetos/Flutter/monyie/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/saulo/Projetos/Flutter/monyie/android/app/src/main/AndroidManifest.xml
 INJECTED from /home/saulo/Projetos/Flutter/monyie/android/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:support-fragment:28.0.0] /home/saulo/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/da17634865fbd11a2c5d336c70125318/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/saulo/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/da17634865fbd11a2c5d336c70125318/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/saulo/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/b25adad84ca787a82c535877e967a2fc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/saulo/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/b25adad84ca787a82c535877e967a2fc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/saulo/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/955add67d7d4e29b699baccbe33ae065/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/saulo/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/955add67d7d4e29b699baccbe33ae065/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/saulo/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/738913bcfee7c4d4c255f8ad6b13d137/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/saulo/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/738913bcfee7c4d4c255f8ad6b13d137/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/saulo/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/4ae3b2d115e0e6f8f33128ee549f2603/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/saulo/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/4ae3b2d115e0e6f8f33128ee549f2603/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/saulo/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/2a47fd4dd2c693e8adf4e9d4c8a7e5ce/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/saulo/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/2a47fd4dd2c693e8adf4e9d4c8a7e5ce/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/saulo/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/8809df6e32278c0fee08babbc84c5634/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/saulo/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/8809df6e32278c0fee08babbc84c5634/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/saulo/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/e473bfb42aeb5b89a594535926aa63b0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/saulo/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/e473bfb42aeb5b89a594535926aa63b0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/saulo/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/401507d4b81b7eaf7545daa4fd0dc8f3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/saulo/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/401507d4b81b7eaf7545daa4fd0dc8f3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/saulo/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/0ac586a0f84352fa975369dedb24f76c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/saulo/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/0ac586a0f84352fa975369dedb24f76c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/saulo/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/c9215130e5191bababfb03eb047898ff/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/saulo/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/c9215130e5191bababfb03eb047898ff/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/saulo/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/fb1ad66442af945122b21e580e588b6a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/saulo/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/fb1ad66442af945122b21e580e588b6a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/saulo/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/fcf5f5e9613b148e7ffe49cf018d0b74/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/saulo/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/fcf5f5e9613b148e7ffe49cf018d0b74/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/saulo/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/7c228ab4687261db5196426846803dec/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/saulo/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/7c228ab4687261db5196426846803dec/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/saulo/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/2e3c51f828534b8c09c3298789d2884a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/saulo/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/2e3c51f828534b8c09c3298789d2884a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/saulo/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/554fd8f8ed585f99da91524e16daa576/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/saulo/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/554fd8f8ed585f99da91524e16daa576/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/saulo/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/e39dc1e1bd0624b2468d7c9f235417a3/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/saulo/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/e39dc1e1bd0624b2468d7c9f235417a3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/saulo/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/eb2ae054ba29151c6dd6788bdb482281/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/saulo/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/eb2ae054ba29151c6dd6788bdb482281/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/saulo/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/9ad07f5b3f24574bb175ae124436ff3e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/saulo/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/9ad07f5b3f24574bb175ae124436ff3e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/saulo/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/9caf50c0aa6a44cf59aeb47508898b08/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/saulo/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/9caf50c0aa6a44cf59aeb47508898b08/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/saulo/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/e815ca22d642b878d6932036c41dd53f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/saulo/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/e815ca22d642b878d6932036c41dd53f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/saulo/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/9131f8f508e6e3c92dcb78b3c5eea39c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/saulo/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/9131f8f508e6e3c92dcb78b3c5eea39c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/saulo/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/9e5f783cd523317a3dd722040c57847e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/saulo/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/9e5f783cd523317a3dd722040c57847e/AndroidManifest.xml:20:5-44
 INJECTED from /home/saulo/Projetos/Flutter/monyie/android/app/src/debug/AndroidManifest.xml
 INJECTED from /home/saulo/Projetos/Flutter/monyie/android/app/src/debug/AndroidManifest.xml
 	android:targetSdkVersion

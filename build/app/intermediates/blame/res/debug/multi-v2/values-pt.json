@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/saulo/Projetos/Flutter/monyie/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-pt/values-pt.xml",
+            "map": [
+                {
+                    "source": "/home/saulo/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/fb1ad66442af945122b21e580e588b6a/res/values-pt/values-pt.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

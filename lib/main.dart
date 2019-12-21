@@ -1,16 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-void main() => {
-  SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]).then((_){
-      runApp(new MyApp());
-    })
-};
+void main () {
+  runApp(new MyApp());
+}
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
+    SystemChrome.setPreferredOrientations([
+        DeviceOrientation.portraitUp,
+        DeviceOrientation.portraitDown,
+    ]);
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
@@ -42,8 +44,18 @@ class Login extends StatefulWidget {
 class _LoginState extends State<Login> {
   String _email = "";
   String _password = "";
+  String _name = "";
 
   void _setEmail(value){
+    if (value == 'oksaulo@gmail.com'){
+      setState(() {
+        _name = ", Saulo";
+      });
+    } else {
+      setState(() {
+        _name = "";
+      });
+    }
     setState(() {
       _email = value;
     });
@@ -55,13 +67,31 @@ class _LoginState extends State<Login> {
     });
   }
 
+  void _exibirDialogo() {
+    showDialog(
+       context:  context,
+       builder:  (BuildContext context) {
+         return AlertDialog(
+           title: new Text("Erro!"),
+           content: new Text("Os seus dados não conferem, tente novamente"),
+           actions: <Widget>[
+             new FlatButton(
+               child: new Text("Ok!"),
+               onPressed: (){
+                 Navigator.of(context).pop();
+               },
+             )
+           ],
+         );
+    },
+   );
+}
+
   void _login(){
     if (_email == 'saulojoabps@gmail.com' && _password == "123"){
-      print('OK');
+      print("OK COMPUTER");
     } else {
-      Scaffold.of(context).showSnackBar(
-        SnackBar(content: Text('ok'),)
-      );
+      _exibirDialogo();
     }
   }
 
@@ -69,7 +99,7 @@ class _LoginState extends State<Login> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        color: Color.fromRGBO(49, 50, 72, 1),
+        color: Color.fromRGBO(28, 28, 28, 1),
         child: Center(
         // Center is a layout widget. It takes a single child and positions it
         // in the middle of the parent.
@@ -78,10 +108,10 @@ class _LoginState extends State<Login> {
           children: <Widget>[
             Container(
               child: Padding(
-                padding: EdgeInsets.all(70.0),
+                padding: EdgeInsets.all(10.0),
                 child: 
                 Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
+                  mainAxisAlignment: MainAxisAlignment.start,
                   children: <Widget>[
                   Icon(Icons.attach_money, size: 40, color: Color.fromRGBO(0, 170, 100, 1),),
                   Text(
@@ -92,28 +122,45 @@ class _LoginState extends State<Login> {
               ),
             ),
             Container(
-              width: 320,
+              alignment: Alignment.centerLeft,
               child: Padding(
+              padding: EdgeInsets.all(50.0),
+              child: 
+              Column(children: <Widget>[
+                Text(
+                  "Bem-vindo",
+                  style: TextStyle(fontSize: 40, color: Color.fromRGBO(0, 170, 100, 1), fontWeight: FontWeight.w900),
+                ),
+                Text(
+                  "novamente" + _name + ".",
+                  style: TextStyle(fontSize: 40, color: Color.fromRGBO(0, 170, 100, 1), fontWeight: FontWeight.w100),
+                ),
+              ],
+              )
+              ,)
+            ),
+            Flexible(
+              child: Container(
                 padding: EdgeInsets.all(10.0),
+                margin: EdgeInsets.symmetric(horizontal: 30.0),
                 child: TextField(
                   decoration: InputDecoration(
                     hintText: 'E-mail',
                     helperText: "Insira o seu e-mail acima",
                     helperStyle: TextStyle(color: Color.fromRGBO(0, 170, 100, 1)),
-                    prefixIcon: Icon(Icons.email, color: Color.fromRGBO(0, 170, 100, 1)),
+                    prefixIcon: Icon(Icons.email, color: Color.fromRGBO(0, 170, 100, 1),),
                     hintStyle: TextStyle(color: Color.fromRGBO(0, 170, 100, 1), fontWeight: FontWeight.w100),
-                    //border: 
                   ),
                   style: TextStyle(color: Color.fromRGBO(0, 170, 100, 1)),
-                  onChanged: (text) => _setEmail(text),
                   keyboardType: TextInputType.emailAddress,
+                  onChanged: (value) =>_setEmail(value),
                 ),
-              )
+              ),
             ),
-            Container(
-              width: 320,
-              child: Padding(
+            Flexible(
+              child: Container(
                 padding: EdgeInsets.all(10.0),
+                margin: EdgeInsets.symmetric(horizontal: 30.0),
                 child: TextField(
                   decoration: InputDecoration(
                     hintText: 'Senha',
@@ -121,27 +168,20 @@ class _LoginState extends State<Login> {
                     helperStyle: TextStyle(color: Color.fromRGBO(0, 170, 100, 1)),
                     prefixIcon: Icon(Icons.lock, color: Color.fromRGBO(0, 170, 100, 1),),
                     hintStyle: TextStyle(color: Color.fromRGBO(0, 170, 100, 1), fontWeight: FontWeight.w100),
-                    //border: 
                   ),
-                  
                   style: TextStyle(color: Color.fromRGBO(0, 170, 100, 1)),
-                  onChanged: (text) => _setPassword(text),
                   obscureText: true,
+                  onChanged: (value) =>_setPassword(value),
                 ),
-              )
+              ),
             ),
             Container(
-              child: 
-              Padding(
-                padding: EdgeInsets.all(20.0),
                 child:  FlatButton(
                   autofocus: false,
                   onPressed: () => _login(),
                   child: Text('Entrar', style: TextStyle(color: Colors.white, fontWeight: FontWeight.w100), ),
                   color: Color.fromRGBO(0, 170, 100, 1),
                 ),
-              )
-             
             )
           ],
         ),
